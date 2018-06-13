@@ -1,6 +1,8 @@
 import sklearn as sk;
 from sklearn import tree
 
+
+titanic_data = pd.read_csv('data/titanic.csv')
 #Preprocessing
 #sklearn requires some serious preprocessing for categorical data!
 

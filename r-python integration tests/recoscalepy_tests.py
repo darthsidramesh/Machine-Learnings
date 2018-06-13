@@ -5,7 +5,7 @@ import sklearn as sk;
 
 
 
-titanic_data = pd.read_csv('titanic.csv')
+titanic_data = pd.read_csv('data/titanic.csv')
 
 titanic_data.head()
 
@@ -20,11 +20,11 @@ titanic_data['Pclass'] = titanic_data['Pclass'].astype('category', ordered = Fal
 form = 'Survived ~ Pclass + Sex + Age  + Parch  + Fare + Embarked'
 
 
-#build decision trees and extract the tree's information
+#train decision tree and extract the tree's information
 titanic_data_tree = rp.rx_dtree(form, titanic_data, max_depth = 50)
 
 #test data
-test = pd.read_csv('test.csv')
+test = pd.read_csv('data/test.csv')
 test_data_object_types = test.select_dtypes(include=['object'])
 test_data_object_types_columns = np.array(test_data_object_types.columns)
 for column in test_data_object_types_columns:
@@ -34,9 +34,3 @@ for column in test_data_object_types_columns:
 titanic_data_predictions = rp.rx_predict_rx_dtree(titanic_data_tree, test)
 
 
-filepath = 'test_predictions.csv'
-titanic_data_predictions.to_csv(filepath)
-#extract tree properties
-titanic_data_frame = pd.DataFrame(titanic_data_tree.frame)
-
-   
