@@ -1,5 +1,4 @@
-This code eventually became the blog post I wrote found at
-http://blog.revolutionanalytics.com/2017/11/revoscalepy.html.
+
 
 # Objective
 
@@ -19,4 +18,6 @@ More can be found at my blogpost, but the key takeaways are:
 3. revoscalepy is amazing if you are coming from an R background (like me), but could be confusing for native Python users
 4. revoscalepy allows for some nice transliteration between R and Python 
 
+#For More Information
 
+A detailed description and comparison of sklearn and revoscalepy can be found at my [blog post](http://blog.revolutionanalytics.com/2017/11/revoscalepy.html)
