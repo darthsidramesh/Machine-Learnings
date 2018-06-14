@@ -1,4 +1,4 @@
-# Machine Learnings and Teachings
+# Machine Learnings
 
 Welcome to my page! Here, I like to document stuff that I've learned in my various projects, whether at Microsoft or at Carnegie Mellon. 
 
