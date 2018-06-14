@@ -15,7 +15,7 @@ output:
 
 # The Use Case
 
-In this use case, imagine you are a movie theater owner. You decide to increase movie ticket sales, you want to build an app to recommend movies to your loyal customers.
+In this use case, imagine you are a movie theater owner. You decide that in order to increase movie ticket sales, you should build an app to recommend movies to your loyal customers.
 
 The following is the top few rows of a dataset for one customer. 0 means the customer did not like that movie and 1 means the customer did. We are just going to take the ROC curve for this one person and then figure out what the optimal threshold is. 
 
