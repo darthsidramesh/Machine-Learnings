@@ -1,9 +1,8 @@
 # Objective
-To educate people on why optimizing your classifiers for utility is crucial to a Machine Learning Project.
 
-To read through the example and understand the concept, click on **utility_movie_example.md**.
+To read through the example and understand the concept, click on **Utilities.md**.
 
-# Steps to run R code
+# Explore Further: Steps to run the R code
 
 To actually run through the code yourself:
 
